@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Noughts and Crosses</h1>
+    <h2>Your mission</h2>
+    <p>
+      Below is a simple <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">noughts and crosses</a> board which should already let you click on squares in order to make a move - try it out.
+    </p>
+
+    <p>Unfortunately it doesn't currently detect who has won, <strong>we want you to implement the code to fix that.</strong></p>
+
+    <h3>Extension Points</h3>
+    <p>It doesn't matter if you don't get here, these are just some extra tasks to consider if you have some spare time.</p>
+    <ul>
+      <li>Detect a draw</li>
+      <li>Provide a way to reset the game to its start state</li>
+      <li>Stop players from making extra moves when the game is over</li>
+      <li>Make the game work for a bigger board, say 4x4</li>
+    </ul>
+
+    <table>
+      <tr>
+        <td id="square00" onClick="play(0,0)"></td>
+        <td id="square10" onClick="play(1,0)"></td>
+        <td id="square20" onClick="play(2,0)"></td>
+      </tr>
+      <tr>
+        <td id="square01" onClick="play(0,1)"></td>
+        <td id="square11" onClick="play(1,1)"></td>
+        <td id="square21" onClick="play(2,1)"></td>
+      </tr>
+      <tr>
+        <td id="square02" onClick="play(0,2)"></td>
+        <td id="square12" onClick="play(1,2)"></td>
+        <td id="square22" onClick="play(2,2)"></td>
+      </tr>
+    </table>
+  </body>
+</html>
